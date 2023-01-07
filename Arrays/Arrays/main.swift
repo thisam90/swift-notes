@@ -9,6 +9,10 @@ import Foundation
 
 print("Hello, Arrays")
 
-for i in 1...4{
-    print("\(i).Hello, array")
-}
+
+//CreatingArray.swift
+//creatingArrays()
+
+//OperatingOnArrays.swift
+operatingOnArrays()
+
