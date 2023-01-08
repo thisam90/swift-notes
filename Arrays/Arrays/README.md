@@ -1,9 +1,13 @@
 # Arrays
 
-Definition:          An ordered collection of objects and values, where each position withing the array is identified by an index.
+**Definition:**       
 
-Important to note:   All elements of an array must be of the same type, however do not need to be unique - which means a value can
-                     appear multiple times inside the array 
+An ordered collection of objects and values, where each position withing the array is identified by an index.
+
+**Important to note:**   
+
+All elements of an array must be of the same type, however do not need to be unique - which means a value can 
+appear multiple times inside the array 
 
 
 **1. Creating An Array**
@@ -26,5 +30,5 @@ let temperatureArray : [Double] = [ 32.54, 67.54, 87.56, 23.5, 87.45]
 
 ```
 
-** 2. Accessing and Modifying Arrays **
+**2. Accessing and Modifying Arrays**
 
