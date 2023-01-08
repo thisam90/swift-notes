@@ -32,9 +32,10 @@ let temperatureArray : [Double] = [ 32.54, 67.54, 87.56, 23.5, 87.45]
 
 **2. Accessing and Modifying Arrays**
 
+Subscripting: 
+
 ```swift
 
-**Subscripting**: 
 
 Elements inside the array have an index. Index starts at 0, which is the first element and continues
 to how many elements are inside.
@@ -43,8 +44,11 @@ let sampleArray : [String] = ["COD", "THE WITCHER", "DOTA"]
 sampleArray[0]      // COD
 sampleArray[1]      // THE WITCHER
 sampleArray[2]      // DOTA
+```
 
 **HalfRange Operator to slice**
+
+```swift
 
 One can use the half range operator [start...end] to slice the array.
 Important to note that when slicing , there will be only the reference to the sliced indexes
