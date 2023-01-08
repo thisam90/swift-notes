@@ -6,7 +6,7 @@ Important to note:   All elements of an array must be of the same type, however 
                      appear multiple times inside the array 
 
 
-** 1. Creating An Array **
+**1. Creating An Array**
 
 ```swift
 
@@ -25,3 +25,6 @@ let immutableArray : [Int] = [32, 65, 23, 12, 76, 43, 23] // constant array - ca
 let temperatureArray : [Double] = [ 32.54, 67.54, 87.56, 23.5, 87.45]
 
 ```
+
+** 2. Accessing and Modifying Arrays **
+
