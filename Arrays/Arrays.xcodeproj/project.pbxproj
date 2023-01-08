@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4483B6D296AC6B5004F39DD /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4483B6C296AC6B5004F39DD /* Sample.swift */; };
+		F48D79A0296A2BDA00CB3E87 /* CreatingArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D799F296A2BDA00CB3E87 /* CreatingArray.swift */; };
+		F48D79A2296A2D3600CB3E87 /* OperatingOnArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D79A1296A2D3600CB3E87 /* OperatingOnArrays.swift */; };
 		F4EEBC882969C54E007F0D5C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EEBC872969C54E007F0D5C /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F4483B6C296AC6B5004F39DD /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		F48D799E296A232A00CB3E87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F48D799F296A2BDA00CB3E87 /* CreatingArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingArray.swift; sourceTree = "<group>"; };
+		F48D79A1296A2D3600CB3E87 /* OperatingOnArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingOnArrays.swift; sourceTree = "<group>"; };
 		F4EEBC842969C54E007F0D5C /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EEBC872969C54E007F0D5C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				F4EEBC872969C54E007F0D5C /* main.swift */,
+				F48D799F296A2BDA00CB3E87 /* CreatingArray.swift */,
+				F48D79A1296A2D3600CB3E87 /* OperatingOnArrays.swift */,
+				F4483B6C296AC6B5004F39DD /* Sample.swift */,
+				F48D799E296A232A00CB3E87 /* README.md */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -120,7 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48D79A0296A2BDA00CB3E87 /* CreatingArray.swift in Sources */,
+				F4483B6D296AC6B5004F39DD /* Sample.swift in Sources */,
 				F4EEBC882969C54E007F0D5C /* main.swift in Sources */,
+				F48D79A2296A2D3600CB3E87 /* OperatingOnArrays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
