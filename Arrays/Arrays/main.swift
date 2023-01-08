@@ -14,5 +14,7 @@ print("Hello, Arrays")
 //creatingArrays()
 
 //OperatingOnArrays.swift
-operatingOnArrays()
+//operatingOnArrays()
+
+createSample() // Sample.swift
 

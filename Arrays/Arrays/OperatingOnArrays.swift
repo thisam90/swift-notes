@@ -32,5 +32,6 @@ func operatingOnArrays() -> Void {
     
     let secondFirstSlice = Array(pastries[1...3])
     print("First element from secondFirstSlice is : \(secondFirstSlice[0])")
+        // ❤️
     
 }
