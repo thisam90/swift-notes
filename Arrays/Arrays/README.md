@@ -32,7 +32,7 @@ let temperatureArray : [Double] = [ 32.54, 67.54, 87.56, 23.5, 87.45]
 
 **2. Accessing and Modifying Arrays**
 
-Subscripting: 
+**Subscripting:** 
 
 ```swift
 
@@ -46,7 +46,7 @@ sampleArray[1]      // THE WITCHER
 sampleArray[2]      // DOTA
 ```
 
-**HalfRange Operator to slice**
+**HalfRange Operator to slice:**
 
 ```swift
 
@@ -69,4 +69,31 @@ sample[1] = 5
 sample[2] = 6
 
 ```
+
+**Counting Items in the array
+
+One way to count the elements inside the array is to use the property `.count`
+
+```swift
+let arr: [String] = [ "Value 1", "Value 2", "Value 3" , "Value 4"]
+print(arr.count) // 4
+```
+
+**Adding to an array**
+
+There are different ways to add to an array, most common ways are `.append()` method and ` += ` operator.
+
+```swift
+var scores: [Int] = []
+scores.append(2)
+scores.append(5)
+scores.append(6)
+print(scores) // [2,5,6]
+
+let newArray: [Int] = [8, 7, 9]
+scores += newArray
+print(scores) // [2,5,6,8,7,9]
+
+```
+
 
