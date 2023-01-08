@@ -70,13 +70,27 @@ sample[2] = 6
 
 ```
 
-**Counting Items in the array
+**Counting Items in the array**
+
 
 One way to count the elements inside the array is to use the property `.count`
 
 ```swift
 let arr: [String] = [ "Value 1", "Value 2", "Value 3" , "Value 4"]
 print(arr.count) // 4
+```
+
+**Check if item exists inside the array**
+
+You can check if there is an element present inside the array by using the method `.contains(element)`. This method
+returns a boolean value, true or false.
+
+```swift
+
+let names: [String] = ["John", "Markus", "Elen","Dobby"]
+print(names.contains("Jacob"))  // returns false 
+print(names.contains("John"))   // returns true
+
 ```
 
 **Adding to an array**
@@ -95,5 +109,39 @@ scores += newArray
 print(scores) // [2,5,6,8,7,9]
 
 ```
+
+**Inserting a new element in the array**
+
+You can add an element at a specific index using the method `.insert(element, at: 1)`.
+
+```swift
+
+var names: [String] = ["Alex", "John", "Markus"]
+print(names) // ["Alex","John","Markus"]
+names.insert("Bob", at: 3)
+print(names) // ["Alex","John","Markus","Bob"]
+
+```
+
+**Removing an item from the array**
+
+You can remove item/s from the array using the method `.remove(at: indexPosition)`, or you can remove all the items 
+using the method `.removeAll()`
+
+```swift
+var scores: [Int] = [45, 65, 32, 76, 89]
+scores.remove(at: 1) // 65
+print(scores)
+
+var firstRemove = scores.remove(at: 0)
+print(firstRemove) // 45
+
+scores.removeAll() 
+print(scores) // [] empty
+
+```
+
+
+
 
 
