@@ -141,6 +141,18 @@ print(scores) // [] empty
 
 ```
 
+**Swapping indexes inside an array**
+
+You can swap item/s between them using the method `.swapAt(i,j)` where `i` is the first index to swap and `j` is the
+second index.
+
+```swift
+var swapArray : [String] = ["Technology","Science"]
+print(swapArray) // ["Technology","Science"]
+swapArray.swap(0,1)
+print(swapArray) // ["Science", "Technology"]
+
+```
 
 
 

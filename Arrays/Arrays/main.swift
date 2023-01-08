@@ -28,3 +28,13 @@ print(names) // ["Alex", "John", "Markus"]
 names.insert("Bob", at: 3)
 print(names) // ["Alex", "John", "Markus", "Bob"]
 
+var swapArray : [String] = ["Technology","Science"]
+print(swapArray)
+swapArray.swapAt(1, 0)
+print(swapArray)
+
+var toDoList: [String] = ["Take out the trash", "Pay bills", "Cross off finished items"]
+
+for item in toDoList.reversed(){
+    print(item)
+}
