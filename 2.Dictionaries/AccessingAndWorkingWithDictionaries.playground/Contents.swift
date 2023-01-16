@@ -123,3 +123,77 @@ person.removeValue(forKey: "state")
 for (key, value) in person {
     print("\(key) : \(value)")
 }
+
+
+///
+///
+/// ANOTHER EXAMPLE FOR YOUR THOUGHT
+///
+///
+
+var rzaAlbumReleaseYear : [String: Int] = [
+//          Key                               VALUE
+    "Bobby Digital in Stereo"               : 1998,
+    "Digital Bullet"                        : 2001,
+    "Birth of a Prince"                     : 2003,
+    "Digi Snacks"                           : 2008,
+    "Bobby Digital and the Pit of Snakes"   : 2022
+
+]
+
+for ( nameAlbum, year ) in rzaAlbumReleaseYear {
+    print("\(nameAlbum) - \(year)")
+}
+
+
+/// Updating the value of the albums
+///
+
+rzaAlbumReleaseYear.updateValue(2009, forKey: "Digi Snacks")
+
+if let newValue = rzaAlbumReleaseYear["Digi Snacks"] {
+    print(newValue)
+}
+
+for ( albumTitle, releaseYear) in rzaAlbumReleaseYear {
+    print("\(albumTitle) - \(releaseYear)")
+}
+
+let albums : [String] = Array(rzaAlbumReleaseYear.keys) // Creating an array from a dictionary, casting Array()
+print()
+
+for album in albums {
+    print("\(album)")
+}
+
+
+/// ANOTHER BEAUTIFUL EXAMPLE
+///
+
+let teams : [String: [String]] = [
+        
+    "Houston Dash"      : ["Jane", "Michaela", "Rachel", "Allysha", "Janine"],
+    "Orlando Pride"     : ["Sydney", "Toni", "Shelina", "Emily", "Chioma"],
+    "Sky Blue FC"       : ["Kailen", "McKenzie", "Thaisa", "Shea", "Jen"]
+    
+]
+
+var teamNames : [String] = []
+
+for name in teams.values{
+    teamNames += name
+}
+
+print("The NWSL has the following players: \(teamNames)")
+
+
+print()
+
+for (team, players) in teams {
+    print()
+    print("\(team) members: ")
+    for player in players {
+        print("\(player)")
+    }
+}
+
